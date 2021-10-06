@@ -10,6 +10,18 @@
 		<div class="topbar"></div>
 		<div class="dock"></div>
 		<script src="./script.js"></script>
+        <script src="./darkmode.js"></script>
+        <script>
+        function addDarkmodeWidget() {
+            const options = {
+                autoMatchOsTheme: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.toggle();
+            console.log(darkmode.isActivated());
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+        </script>
 	</body>
 	
 <html>		

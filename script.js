@@ -12,7 +12,13 @@ function TimeNow() {
 	else {
 		var seconds = now.getSeconds();
 	}
-	return hours + ":" + now.getMinutes() + ":" + seconds;
+    if (now.getMinutes() < 10) {
+        var minutes = "0" + now.getMinutes();
+    }
+    else {
+        var minutes = now.getMinutes();
+    }
+	return hours + ":" + minutes + ":" + seconds;
 }
 
 function updateClock() {
