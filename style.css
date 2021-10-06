@@ -1,0 +1,10 @@
+body {
+	font-family: sans-serif;
+}
+
+.time-widget {
+	font-weight: 550;
+	text-align: right;
+	padding: 2.5% 2.5% 0% 0%;
+	font-size: 3rem;
+}
