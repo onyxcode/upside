@@ -5,11 +5,16 @@
 		<link rel="stylesheet" href="./style.css"/>
 	</head>
 	
-	<body>
+	<body class="container">
 		<div class="topbar">
-			<span class="dropdown-menu">Applications</span>
+			<span class="dropdown-menu default-cur" onmouseover="document.getElementsByClassName('menu')[0].style.display = 'inline-block';document.body.scroll = 'no';" onmouseleave="document.getElementsByClassName('menu')[0].style.display = 'none';">&nbsp;&nbsp;Applications&nbsp;&nbsp;</span>
 			<h2 id="time-widget"></h2>
 		</div>
+		<ul class="menu default-cur" onmouseover="document.getElementsByClassName('menu')[0].style.display = 'inline-block';document.body.scroll = 'no';" onmouseleave="document.getElementsByClassName('menu')[0].style.display = 'none';">
+				<li>&nbsp;&nbsp;Example App 1&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;Example App 2&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;Example App 3&nbsp;&nbsp;</li>
+		</ul>
 		
 		<div class="dock"></div>
 		<script src="./script.js"></script>

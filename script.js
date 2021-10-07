@@ -18,7 +18,7 @@ function TimeNow() {
     else {
         var minutes = now.getMinutes();
     }
-	return hours + ":" + minutes + ":" + seconds;
+	return hours + ":" + minutes; //+ ":" + seconds;
 }
 
 function updateClock() {
