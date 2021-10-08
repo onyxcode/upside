@@ -97,3 +97,12 @@ body.container.darkmode-layer {
 .dropdown-menu:hover + .menu {
 	display: inline-block;
 }
+
+/* Dock is currently broken
+.dock {
+	background-color: black;
+	display: block;
+	border-radius: 25rem;
+	text-align: center;
+}
+*\
